@@ -1,1 +1,9 @@
-node_modules/
+node_modules/*
+!node_modules/angular/
+node_modules/angular/*
+!node_modules/angular/angular.js
+!node_modules/angular-slides/
+node_modules/angular-slides/*
+!node_modules/angular-slides/dist
+node_modules/angular-slides/dist/*
+!node_modules/angular-slides/dist/msl_slides.js
