@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>angular-ticker demo</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body ng-app="angularTickerDemo" ng-controller="DemoCtrl">
+    <msl-slides>
+      <div>
+        <div>
+          <msl-ticker text="text" length="length" period="period">
+          </msl-ticker>
+          <div>
+            <button ng-click="showTheCode()">
+              Show me the code!
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div>
+<pre><code>&lt;msl-ticker
+  text="'{{text}}'"
+  length="'{{length}}'"
+  period="'{{period}}'"&gt;
+&lt;/msl-ticker&gt;</code></pre>
+          <p>
+            (Oh, you mean the
+            <a href="https://github.com/marcoliceti/angular-ticker">source code</a>?)
+          </p>
+        </div>
+      </div>
+    </msl-slides>
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/angular-slides/dist/msl_slides.js"></script>
+    <script src="../ticker.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

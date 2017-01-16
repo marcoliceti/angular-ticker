@@ -1,0 +1,17 @@
+{
+  "name": "angular-ticker",
+  "version": "0.1.0",
+  "description": "An AngularJS component for tickers.",
+  "author": "Marco Liceti",
+  "license": "MIT",
+  "scripts": {
+    "demo": "node_modules/http-server/bin/http-server -o"
+  },
+  "dependencies": {
+    "angular": "^1.6.1"
+  },
+  "devDependencies": {
+    "angular-slides": "^1.1.0",
+    "http-server": "^0.9.0"
+  }
+}
